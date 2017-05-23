@@ -7,3 +7,7 @@ def add(first_number, seconds_number)
   return first_number + seconds_number
 
 end
+
+def subtract(first_number, seconds_number)
+  return first_number - seconds_number
+end
