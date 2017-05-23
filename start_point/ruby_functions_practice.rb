@@ -11,3 +11,8 @@ end
 def subtract(first_number, seconds_number)
   return first_number - seconds_number
 end
+
+
+def multiply(first_number, seconds_number)
+  return first_number * seconds_number
+end
