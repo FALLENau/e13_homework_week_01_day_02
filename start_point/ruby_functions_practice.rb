@@ -20,3 +20,7 @@ end
 def divide(first_number, seconds_number)
   return first_number / seconds_number
 end
+
+def length_of_string(string)
+  return string.length()
+end
