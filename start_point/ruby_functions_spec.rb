@@ -31,8 +31,8 @@ class Functions_Practice < MiniTest::Test
 
   def test_length_of_string()
     test_string = "A string of length 21"
-    length_of_string = length_of_string( test_string )
-    assert_equal( 21, length_of_string )
+    length_of_string_result = length_of_string( test_string )
+    assert_equal( 21, length_of_string_result )
   end
 
   def test_join_string()
@@ -72,7 +72,7 @@ end
   #Given the length of a side of a cube calculate the volume
   def test_volume_of_cube(sum)
     #add test code here
-    sum 
+    sum
 
   end
   #
