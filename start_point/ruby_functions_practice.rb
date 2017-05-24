@@ -41,8 +41,6 @@ def number_to_full_month_name(number)
   elsif number == 9
     return "September"
   end
-
-  return results
 end
 
 def number_to_short_month_name(number)
@@ -53,10 +51,19 @@ def number_to_short_month_name(number)
   elsif number == 9
     return "Sep"
   end
+end
+            # Zsolt Example
+# def number_to_short_month_name( number )
+#   long_month_name = number_to_full_month_name(number)
+#   return long_month_name[0..2]
+# end
 
-  #Given the length of a side of a cube calculate the volume
-  def volume_of_cube(sum)
-    #add test code here
-    sum 
-  end
+    # Given the length of a side of a cube calculate the volume
+
+def volume_of_cube(side)
+  return side * side * side
+end
+
+def volume_of_sphere(radius)
+  return ((4/3.0)*Math::PI*(radius**3)).round(1)
 end
