@@ -70,9 +70,9 @@ end
   #Further
 
   #Given the length of a side of a cube calculate the volume
-  def test_volume_of_cube()
+  def test_volume_of_cube(sum)
     #add test code here
-    
+    sum 
 
   end
   #
